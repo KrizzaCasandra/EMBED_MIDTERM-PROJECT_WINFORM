@@ -264,7 +264,7 @@
             this.level_onelabel.ForeColor = System.Drawing.Color.Lime;
             this.level_onelabel.Location = new System.Drawing.Point(174, 280);
             this.level_onelabel.Name = "level_onelabel";
-            this.level_onelabel.Size = new System.Drawing.Size(872, 137);
+            this.level_onelabel.Size = new System.Drawing.Size(860, 135);
             this.level_onelabel.TabIndex = 24;
             this.level_onelabel.Text = "> LEVEL 1 <";
             // 
@@ -329,7 +329,7 @@
             this.levelone_Label2.ForeColor = System.Drawing.Color.Lime;
             this.levelone_Label2.Location = new System.Drawing.Point(164, 280);
             this.levelone_Label2.Name = "levelone_Label2";
-            this.levelone_Label2.Size = new System.Drawing.Size(872, 137);
+            this.levelone_Label2.Size = new System.Drawing.Size(860, 135);
             this.levelone_Label2.TabIndex = 30;
             this.levelone_Label2.Text = "> LEVEL 1 <";
             // 
@@ -345,6 +345,7 @@
             this.playertwo_label.Size = new System.Drawing.Size(466, 98);
             this.playertwo_label.TabIndex = 29;
             this.playertwo_label.Text = "PLAYER 2";
+            this.playertwo_label.Click += new System.EventHandler(this.playertwo_label_Click);
             // 
             // Form1
             // 

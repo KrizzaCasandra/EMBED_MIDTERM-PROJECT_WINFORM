@@ -502,5 +502,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void playertwo_label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
